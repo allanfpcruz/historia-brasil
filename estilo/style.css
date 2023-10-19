@@ -6,11 +6,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 :root {
-    --cor01: #c5ebd6;
-    --cor02: #83e1ad;
-    --cor03: #3ddc84;
-    --cor04: #1a5c37;
-    --cor05: #063d1e;
+    --cor01: #F4C4B8;
+    --cor02: #F59E87;
+    --cor03: #F4592F;
+    --cor04: #EF3300;
+    --cor05: #3D0D00;
 
     --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
     --fonte-destaque: 'Bebas Neue', sans-serif;
@@ -37,7 +37,7 @@ header {
 
 header > h1 {
     
-    margin: 20px;
+    margin: 20px 20px 0px 20px;
     text-align: center;
     font-size: 3em;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.356);
@@ -45,7 +45,7 @@ header > h1 {
 
 header > p {
     
-    margin: 20px;
+    margin: 0px 20px 20px 20px;
     text-align: center;
     font-family: var(--fonte-padrao);
     font-size: 1.2em;
@@ -55,22 +55,6 @@ header > p {
     padding-right: 10px;
     margin-bottom: 20px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.356);
-}
-
-header > nav > a {
-    color: white;
-    text-decoration: none;
-    font-weight: 400;
-    margin: 5px;
-    padding: 10px;
-}
-
-nav > a:hover {
-    background-color:var(--cor03);
-    color: var(--cor05);
-    border-radius: 5px 5px 0px 0px;
-    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.37);
-    transition-duration: 1s;
 }
 
 main {
@@ -95,7 +79,7 @@ main img.pequena {
 
 h2 {
     font: normal normal 1.5em 'Idroid';
-    color: #00682f;
+    color: var(--cor05);
     margin: 5px;
     font-size: 1.5em;
 }
@@ -128,7 +112,7 @@ p > a:hover {
 }
 
 h3 {
-    color: #00682f;
+    color: var(--cor05);
     background-image: linear-gradient(90deg, var(--cor03), transparent);
     font-family: 'Idroid';
     padding-left: 5px;
@@ -184,14 +168,12 @@ h4 {
 footer {
     background-color: var(--cor05);
     margin-top: 15px;
-    margin-bottom: 15px;
 }
 
 footer > p {
     color: white;
     text-align: center;
-    font-size: 0.7em;
-    height: 15px;
+    font-size: 0.9rem;
 }
 
 p > span {
