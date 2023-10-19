@@ -59,7 +59,7 @@ header > p {
 
 main {
     min-width: 300px;
-    max-width: 1000px;
+    max-width: 768px;
     margin: auto;
     background-color: white;
     padding: 10px;
@@ -68,20 +68,17 @@ main {
 }
 
 main img {
-    width: 100%;
-}
-
-main img.pequena {
     max-width: 350px;
     display: block;
-    margin: auto;
+    margin: 10px auto;
 }
 
 h2 {
     font: normal normal 1.5em 'Idroid';
     color: var(--cor05);
+    text-align: center;
     margin: 5px;
-    font-size: 1.5em;
+    font-size: 1.75em;
 }
 
 main > p{
@@ -90,6 +87,10 @@ main > p{
     text-indent: 30px;
     margin: 15px 0px;
     line-height: 2em;
+}
+
+p + p {
+    margin-top: 0px;
 }
 
 p > strong {
@@ -121,7 +122,7 @@ h3 {
 
 div.video {
     background-color: var(--cor05);
-    margin: 0px -10px 30px -10px;
+    margin: 19px -10px 10px -10px;
     padding: 20px;
     padding-bottom: 55.3%;
     position: relative;
