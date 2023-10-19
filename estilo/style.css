@@ -89,10 +89,6 @@ main > p{
     line-height: 2em;
 }
 
-p + p {
-    margin-top: 0px;
-}
-
 p > strong {
     font-weight: bold;
     background-color: var(--cor01);
@@ -112,6 +108,17 @@ p > a:hover {
     background-color: var(--cor02);
 }
 
+p.veja-mais {
+    font-weight: bold;
+    text-align: center;
+}
+
+main audio {
+    display: block;
+    margin: auto;
+    width: 90%;
+    
+}
 h3 {
     color: var(--cor05);
     background-image: linear-gradient(90deg, var(--cor03), transparent);
@@ -137,6 +144,7 @@ div.video > iframe {
 }
 
 aside {
+    margin: 50px 0px 35px 0px;
     background-color:var(--cor01);
     padding: 0px;
     border-radius: 10px;
@@ -149,14 +157,6 @@ aside {
 aside > div {
     padding: 10px;
 }
-
-ul {
-    list-style-position: inside;
-    columns: 2;
-    list-style-type: '\1F5F8\00A0\00A0';
-    margin: 5px 0px;
-}
-
 
 h4 {
     background-color: var(--cor03);
